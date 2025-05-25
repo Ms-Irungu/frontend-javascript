@@ -49,4 +49,15 @@ function executeWork(employee) {
 }
 console.log(executeWork(createEmployee(200)));
 console.log(executeWork(createEmployee(1000)));
+function teachClass(todayClass) {
+    if (todayClass === "Math") {
+        return "Teaching Math";
+    }
+    else if (todayClass === "History") {
+        return "Teaching History";
+    }
+    return "Unknown subject";
+}
+console.log(teachClass('Math'));
+console.log(teachClass('History'));
 //# sourceMappingURL=main.js.map
